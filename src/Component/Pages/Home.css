@@ -39,4 +39,44 @@
     width:50%;
     margin-left:30%;
 }
+.column {
+    float: left;
+    width: 33.33%;
+  }
+
+  .display-3{
+    font-weight: 600;
+    color:rgb(117, 133, 206);
+    font-family: Impact;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+
+.display-4{
+    font-weight: 200;
+    font-size:2em;
+    color:rgb(37, 37, 100);
+    font-family: Impact;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.display-5{
+    font-family:sans-serif ;
+    text-align: center;
+}
+
+/* #ro img{
+    width:400 px;
+    height:500 px;
+} */
+
+ul{
+    list-style-type: none;
+}
 

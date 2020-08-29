@@ -13,6 +13,7 @@ import Home from './Component/Pages/Home';
 import Aboutus from './Component/Pages/Aboutus';
 import Services from './Component/Pages/Services';
 import Navigation from './Component/Navigation';
+import Introduction from './Component/Introduction';
 
 
 
@@ -28,7 +29,7 @@ class App extends Component {
         <Route path ="/product" component={ProductList}></Route>
         <Route path ="/details" component={Details}></Route>
         <Route path ="/cart" component={Cart}></Route>
-        <Route path ="/aboutus" component={Aboutus}></Route>
+        <Route path ="/aboutus" component={Introduction}></Route>
         <Route path ="/service" component={Services}></Route>
         <Route component={Default}></Route> 
       </Switch>
